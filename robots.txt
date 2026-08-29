@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-username.github.io/landing-page-spare-parts-aggregator/sitemap.xml
+Sitemap: https://no-name-code-bit.github.io/articul/sitemap.xml
