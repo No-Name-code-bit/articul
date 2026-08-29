@@ -1,0 +1,6 @@
+# АртикулЪ — robots.txt
+# Директивы Host и Crawl-delay Яндексом не поддерживаются (отменены) — не добавлять.
+User-agent: *
+Allow: /
+
+Sitemap: https://your-username.github.io/landing-page-spare-parts-aggregator/sitemap.xml

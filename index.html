@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АртикулЪ — единый поиск запчастей по всем площадкам</title>
+    <meta name="theme-color" content="#0F1A2F">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <!-- После деплоя: подтвердить права в Яндекс.Вебмастере и добавить сюда
+         мета-тег вида <meta name="yandex-verification" content="XXXX" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<meta name="description" content="Единый агрегатор автозапчастей для России: ищите детали одновременно на Авито, Дроме, Юле, Авто.ру, EMEX, Rossko.ru, AUTODOC и других площадках. Не тратьте время на поиск по отдельным сайтам.">
+<meta name="keywords" content="запчасти, автозапчасти, поиск запчастей, артикул, Авито, Дром, Юла, Авто.ру, EMEX, Rossko, AUTODOC, агрегатор запчастей">
+<meta name="author" content="АртикулЪ — агрегатор автозапчастей">
+<link rel="canonical" href="https://your-username.github.io/landing-page-spare-parts-aggregator/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="АртикулЪ">
+<meta property="og:url" content="https://your-username.github.io/landing-page-spare-parts-aggregator/">
+<meta property="og:title" content="АртикулЪ — единый поиск запчастей по всем площадкам">
+<meta property="og:description" content="Ищите запчасти одновременно на Авито, Дроме, Юле, Авто.ру, EMEX, Rossko.ru, AUTODOC и других площадках. Экономьте время на поиске.">
+<meta property="og:image" content="https://your-username.github.io/landing-page-spare-parts-aggregator/og-image.png">
+<meta property="og:locale" content="ru_RU">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://your-username.github.io/landing-page-spare-parts-aggregator/">
+<meta property="twitter:title" content="АртикулЪ — единый поиск запчастей по всем площадкам">
+<meta property="twitter:description" content="Ищите запчасти одновременно на Авито, Дроме, Юле, Авто.ру, EMEX, Rossko.ru, AUTODOC и других площадках.">
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "name": "АртикулЪ",
+            "url": "https://your-username.github.io/landing-page-spare-parts-aggregator/",
+            "logo": "https://your-username.github.io/landing-page-spare-parts-aggregator/favicon.svg",
+            "description": "Единый агрегатор автозапчастей: поиск деталей по артикулу и OEM на Авито, Дроме, Юле, Авто.ру, EMEX, Rossko.ru, AUTODOC и других площадках."
+        },
+        {
+            "@type": "WebSite",
+            "name": "АртикулЪ",
+            "alternateName": "Artikul",
+            "url": "https://your-username.github.io/landing-page-spare-parts-aggregator/",
+            "inLanguage": "ru-RU"
+        }
+    ]
+}
+</script>
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+    <header>
+        <div class="brand">Артикул<span class="accent">Ъ</span></div>
+        <p>Единый агрегатор автозапчастей</p>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Найдите любую запчасть за секунды</h1>
+            <p>Мы агрегируем объявления с Авито, Дрома, Юлы, Авто.ру, EMEX, Rossko.ru, AUTODOC и других площадок — всё в одном поиске.</p>
+        </section>
+        <section class="how" aria-labelledby="how-title">
+            <div class="how-sticky">
+                <h2 id="how-title" class="section-title">Как это работает</h2>
+                <p class="how-counter" aria-hidden="true"><span class="how-current">1</span><span class="how-total"> / 3</span></p>
+            </div>
+            <ol class="steps">
+                <li class="step">
+                    <span class="step-num" aria-hidden="true">01</span>
+                    <div class="step-body">
+                        <h3>Введите артикул или название детали</h3>
+                        <p>Достаточно одного запроса — не нужно открывать семь вкладок и вспоминать, на каком сайте что видели.</p>
+                        <div class="step-demo demo-typing" aria-hidden="true">
+                            <div class="demo-input">
+                                <span class="demo-type"><span class="demo-type-text">04465-33471</span><span class="demo-caret"></span></span>
+                                <span class="demo-btn">Найти</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="step">
+                    <span class="step-num" aria-hidden="true">02</span>
+                    <div class="step-body">
+                        <h3>Мы опрашиваем все площадки разом</h3>
+                        <p>Авито, Дром, Юла, Авто.ру, EMEX, Rossko.ru, AUTODOC — поиск идёт параллельно по всем источникам за несколько секунд.</p>
+                        <div class="step-demo demo-aggregate" aria-hidden="true">
+                            <div class="agg-chips">
+                                <span class="agg-chip"><span class="agg-spin"></span><span class="agg-name">Авито</span></span>
+                                <span class="agg-chip"><span class="agg-spin"></span><span class="agg-name">Дром</span></span>
+                                <span class="agg-chip"><span class="agg-spin"></span><span class="agg-name">Юла</span></span>
+                                <span class="agg-chip"><span class="agg-spin"></span><span class="agg-name">Авто.ру</span></span>
+                                <span class="agg-chip"><span class="agg-spin"></span><span class="agg-name">EMEX</span></span>
+                                <span class="agg-chip"><span class="agg-spin"></span><span class="agg-name">Rossko</span></span>
+                                <span class="agg-chip"><span class="agg-spin"></span><span class="agg-name">AUTODOC</span></span>
+                            </div>
+                            <div class="agg-core-wrap"><span class="agg-core">Ъ</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="step">
+                    <span class="step-num" aria-hidden="true">03</span>
+                    <div class="step-body">
+                        <h3>Сравните цены и перейдите к продавцу</h3>
+                        <p>Результаты собраны в один список с ценами и состоянием. Клик ведёт напрямую на площадку-источник.</p>
+                        <div class="step-demo demo-results" aria-hidden="true">
+                            <div class="res-row"><div class="res-line"><span class="res-name" style="--w:62%"></span><span class="res-price">2 140 ₽</span></div></div>
+                            <div class="res-row"><div class="res-line"><span class="res-name" style="--w:74%"></span><span class="res-price">3 480 ₽</span></div></div>
+                            <div class="res-row"><div class="res-line"><span class="res-name" style="--w:47%"></span><span class="res-price">5 260 ₽</span></div></div>
+                            <div class="res-row"><div class="res-line"><span class="res-name" style="--w:66%"></span><span class="res-price">6 780 ₽</span></div></div>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section class="preview" aria-labelledby="preview-title">
+            <h2 id="preview-title" class="section-title">Так будет выглядеть результат поиска</h2>
+            <p class="preview-note">Концепт интерфейса — финальный дизайн может отличаться</p>
+            <div class="mock" role="img" aria-label="Пример результата поиска: тормозные колодки с ценами от трёх площадок">
+                <div class="mock-search">
+                    <span class="mock-query">колодки передние Toyota Camry 2015</span>
+                    <span class="mock-btn">Найти</span>
+                </div>
+                <ul class="mock-results">
+                    <li class="mock-row">
+                        <span class="mr-platform">Авито</span>
+                        <span class="mr-name">Колодки тормозные передние, б/у</span>
+                        <span class="mr-meta">Москва · оригинал</span>
+                        <span class="mr-price">1 250 ₽</span>
+                    </li>
+                    <li class="mock-row">
+                        <span class="mr-platform">AUTODOC</span>
+                        <span class="mr-name">Комплект колодок TRW, новые</span>
+                        <span class="mr-meta">доставка 2–4 дня</span>
+                        <span class="mr-price">2 140 ₽</span>
+                    </li>
+                    <li class="mock-row">
+                        <span class="mr-platform">Дром</span>
+                        <span class="mr-name">Колодки передние с разборки, состояние хорошее</span>
+                        <span class="mr-meta">Владивосток · б/у</span>
+                        <span class="mr-price">900 ₽</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="signup-section" aria-labelledby="signup-title">
+            <h2 id="signup-title">Узнайте о запуске АртикулЪ первым</h2>
+            <p>Оставьте ваш email, и мы уведомим вас, когда поиск заработает</p>
+            <form id="signup-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfIaSua3S-8NocbjIoM9jbghfWIWfWxlEAT4WFjuVQyGa6fkg/formResponse" method="POST" target="hidden-iframe">
+                <div class="form-group">
+                    <label for="email">Ваш email</label>
+                    <input type="email" id="email" name="entry.1261116785" placeholder="example@domain.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Ваше имя (опционально)</label>
+                    <input type="text" id="name" name="entry.1523608877" placeholder="Ivan Ivanov">
+                </div>
+                <div class="form-group consent-group">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">
+                        Я даю согласие на обработку моих персональных данных (email, имя) оператором «АртикулЪ» для получения уведомлений о запуске проекта. Согласие действует до его отзыва. Я могу отписаться в люмомент через ссылку в письме или написав на mr983132527@yandex.ru.
+                    </label>
+                </div>
+                <button type="submit" class="btn-primary">
+                    <span class="btn-label">Подписаться на обновления</span>
+                    <span class="btn-spinner" aria-hidden="true"></span>
+                    <svg class="btn-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>
+                </button>
+                <p class="privacy-note">
+                    Мы не передадим ваш email третьим лицам. Используем только для уведомлений о запуске проекта.
+                    Вы можете отписаться в любой момент.
+                    <a href="privacy-policy.html" target="_blank" rel="noopener">Политика конфиденциальности</a>
+                </p>
+            </form>
+            <iframe name="hidden-iframe" id="hidden-iframe" style="display:none;"></iframe>
+            <div id="form-status" class="form-status" aria-live="polite"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 АртикулЪ. Все права защищены.</p>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/demos.js"></script>
+    <!-- После деплоя: подключить Яндекс.Метрику здесь (счётчик даёт «Обход по
+         счётчикам» в Вебмастере + поведенческие данные) -->
+<script async defer data-domain="your-username.github.io" src="https://plausible.io/js/plausible.js"></script>
+</body>
+</html>
