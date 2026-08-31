@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://no-name-code-bit.github.io/articul/sitemap.xml
+Sitemap: https://articull.netlify.app/sitemap.xml
